@@ -1,19 +1,15 @@
+#learning conditionals with user input
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+email = input("Enter your email: ")
 
+#print
+print("My name is ", name)
+print("I am ", age)
+print("My email is ", email)
 
-#learning variables
-name = "confidence chinecherem"
-age = 20
-email = "sconfidencechinecherem@gmail.com"
-print(name)
-print(age)
-print(email)
-#adding string to the variables
-print("My name is " , name)
-print("I am " , age , "years old")
-print("Here is my email address", email)
+#additional logic
 
-#collecting of user details
-full_name = input("enter your full name: ")
-real_age = input("enter your age:")
-email_address = input('enter your email address: ')
-print(full_name,real_age,email_address)
+if age <18:
+    print("sorry", name, "you're not of age")
+else: print("Congratulations", name, "registration successful")
