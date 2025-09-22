@@ -1,15 +1,24 @@
 #learning conditionals with user input
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
-email = input("Enter your email: ")
 
-#print
-print("My name is ", name)
-print("I am ", age)
-print("My email is ", email)
 
-#additional logic
+#additional logic with password validation
 
 if age <18:
     print("sorry", name, "you're not of age")
-else: print("Congratulations", name, "registration successful")
+else:
+   
+    email = input("Enter your email: ")
+    password = input("Create a password: ")
+    
+    #print
+    print("My name is ", name)
+    print("I am ", age)
+    print("My email is ", email)
+    print("My password is ", password)
+
+    if len(password) <6:
+        print("password is too short, password must not be less than 6 characters")
+    else: 
+        print("Congratulations", name, "registration successful")
