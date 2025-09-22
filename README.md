@@ -10,7 +10,10 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - Share progress openly on GitHub
 
 ## Daily Progress
-- **Day 1 (TBD):** [To be added after my first commit]
+- **Day 1 DONE:** Created variables
+- **Day 2 DONE:** Collection of data using input
+- **Day 3 DONE:** Conditional logic
+- **Day 4 DONE:** User and password validation
 
 
 
