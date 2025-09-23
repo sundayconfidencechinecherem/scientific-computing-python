@@ -11,6 +11,7 @@ else:
    
     email = input("Enter your email: ")
     password = input("Create a password: ")
+    confirm_password = input("Confirm your password: ")
     
     #print
     print("My name is ", name)
@@ -20,5 +21,7 @@ else:
 
     if len(password) <6:
         print("password is too short, password must not be less than 6 characters")
+    elif password != confirm_password:
+        print("password did not match!")
     else: 
         print("Congratulations", name, "registration successful")

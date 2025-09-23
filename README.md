@@ -14,6 +14,7 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - **Day 2 DONE:** Collection of data using input
 - **Day 3 DONE:** Conditional logic
 - **Day 4 DONE:** User and password validation
+- **Day 5 DONE:** password Confirmation check
 
 
 
