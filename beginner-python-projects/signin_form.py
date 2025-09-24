@@ -25,3 +25,11 @@ else:
         print("password did not match!")
     else: 
         print("Congratulations", name, "registration successful")
+    #login authentication 
+    print("\n Please login to continue to login")
+    login_email = input("Enter your email: ")
+    login_password = input("Enter your password: ")
+    if login_email == email and login_password == password:
+        print("Welcome back ",name,", login successfully!")
+    else:
+        print("User not found")
