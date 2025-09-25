@@ -33,3 +33,19 @@ else:
         print("Welcome back ",name,", login successfully!")
     else:
         print("User not found")
+    #limited attempt added
+    print("\n Continue to login")
+    attempt = 3
+    while attempt > 0:
+        login_email == input("Enter your email: ")
+        login_password == input("Enter your password: ")
+        if login_email == email and login_password == password:
+            print("Welcome back ", name, "you are logged in")
+            break
+        else:
+            attempt -= 1
+            if attempt > 0:
+                print("Incorrect details ", name, "you have", attempt, "attempts left")
+            else:
+                print('Too many failed attempts, your account is locked')
+
