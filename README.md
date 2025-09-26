@@ -17,6 +17,7 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - **Day 5 DONE:** password Confirmation check
 - **Day 6 DONE:** Login Authentication added
 - **Day 7 DONE:** Login Attempt limited
+- **Day 8 DONE:** Multi user signup system
 
 
 
