@@ -1,3 +1,5 @@
+#login and sign up with criterias
+
 #learning conditionals with user input
 users = {}
 name = input("Enter your name start: ")
