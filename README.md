@@ -19,7 +19,8 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - **Day 7 DONE:** Login Attempt limited
 - **Day 8 DONE:** Multi user signup system
 - **Day 9 DONE:** New file with password reset functionality
-
+- **Day 10 DONE:** Folder modification
+- **Day 11 DONE:** Expense tracker file created
 
 
 ---
