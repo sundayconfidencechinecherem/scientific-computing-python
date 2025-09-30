@@ -1,0 +1,26 @@
+Day 9 ✅
+Simple Expense Tracker
+----------------------
+This program allows users to record expenses with amount 
+and description, then view their total spending.
+"""
+
+expenses = []
+
+print("=== Expense Tracker ===")
+while True:
+    amount = input("Enter expense amount (or 'q' to quit): ")
+    if amount.lower() == 'q':
+        break
+    try:
+        amount = float(amount)
+        desc = input("Enter description: ")
+        expenses.append({"amount": amount, "desc": desc})
+        print("Expense added ✅")
+    except ValueError:
+        print("Invalid amount! Try again.")
+
+# Summary
+print("\n--- Expense Summary ---")
+total = sum(item["amount"] for item in expenses)
+print(f"You recorded {len(expenses)} expenses. Total = ${total}")
