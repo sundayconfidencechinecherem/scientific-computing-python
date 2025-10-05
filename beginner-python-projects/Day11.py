@@ -1,25 +1,28 @@
+#dice rolling game
 import random;
 
-#dice rolling game
+name = input("Enter your name ").strip()
 
-print(" Welcome to Dice Battle! ")
-print("You and the computer will roll a dice. Highest number wins!\n")
-
+print("welcome to Dice game")
+print(f"\n you and the computer will play and who gets the hightest number wins ")
+while name == "":
+    print("Name cannot be empty! Please enter your name. ")
+    name = input("Enter your name: ").strip()
 while True:
-    play = input("Press Enter to roll (or type 'q' to quit): ")
-    if play.lower() == 'q':
-        print("Thanks for playing! ")
+    player1 = input("Press enter to roll a dice or (press 'q' to quit): ")
+    if player1.lower() == 'q':
+        print("It's sad to see you go, ", name, " Goodbye!")
         break
-    
-    user_roll = random.randint(1, 6)
-    comp_roll = random.randint(1, 6)
-    
-    print(f"\nYou rolled: {user_roll}")
-    print(f"Computer rolled: {comp_roll}")
-    
-    if user_roll > comp_roll:
-        print(" You WIN this round! \n")
-    elif user_roll < comp_roll:
-        print(" Computer wins this round! \n")
+    player1_roll = random.randint(1,6)
+    computer_roll = random.randint(1,6)
+
+    print(f"\n You rolled {player1_roll}")
+    print(f"\n computer rolled {computer_roll}")
+
+    if player1_roll > computer_roll:
+            print(name, " You win this time")
+    elif player1_roll < computer_roll:
+            print(name, "you loose!,","Computer wins this time")
     else:
-        print("Get, better luck !\n")
+            print("Try again")
+
