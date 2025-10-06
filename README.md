@@ -23,6 +23,7 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - **Day 11 DONE:** dice game
 - **Day 12 DONE:** word counter app
 - **Day 13 DONE:** BMI Calculator
+- **Day 14 DONE:** Guess the number game
 
 
 ---
