@@ -25,7 +25,9 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - **Day 13 DONE:** BMI Calculator
 - **Day 14 DONE:** Guess the number game
 - **Day 15 DONE:** Simple Calculator
-- **Day 16 DONE:** Multiplication table
+- **Day 16 DONE:** Simple quiz
+- **Day 17 DONE:** Multiplication table
+- **Day 18 DONE:** Rock paper scissor  game
 
 
 ---
