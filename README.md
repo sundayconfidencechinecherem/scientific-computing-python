@@ -30,6 +30,8 @@ I’ll be committing small, meaningful changes every day — from simple exercis
 - **Day 18 DONE:** Rock paper scissor  game
 - **Day 19 DONE:** shopping app with crd feature
 - **Day 20 DONE:** bank app 
+- **Day 21 DONE:** File modification
+- **Day 22 DONE:** New Feature preparation 
 
 
 ---
